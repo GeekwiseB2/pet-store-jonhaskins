@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+.logo{
+  width: 75px;
+  height: 60px;
+  margin-left: 76px;
+}
+.logo-text{
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+  font-weight: 200;
+  color: #ff827b;
+}
+.nav{
+  font-size: 18px;
+  color: ##69B2E7;
+}
+/*.nav a{
+    color: ##69B2E7 !important;
+}*/
+.nav-tabs{
+  border: none;
+  color: ##69B2E7;
+  padding-top: 20px;
+}
+/*.nav-tabs>a:active{
+  border: none;
+}*/
+/*Hero*/
+.jumbotron, .container-fluid{
+  padding: 0px !important;
+  padding-right: 0px !important;
+
+  background-color: transparent;
+  margin: 0 !important;
+}
+.jumbotron{
+  padding-top: 0;
+}
+.hero-img{
+  height: 60vh;
+  width: 100%;
+  background: url('../img/hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text{
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 25px !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-top: 4.5%;
+}
+/*Main*/
+.main{
+    padding-top: 30px;
+}
+
+/*Featured/Services*/
+.featured-text{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.featured-text-description{
+  font-size: 13px;
+}
+.thumbnail{
+  background-color: #edf1f4;
+  padding: 12px;
+  margin-bottom: 0;
+}
+.thumbnail .caption{
+  padding-bottom: 9px;
+}
+.thumbnail a{
+  background-color: #5BC0DE;
+  border-color: #5BC0DE;
+  color: white;
+}
+.serv{
+  text-align: center;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Services*/
+.upper{
+  text-align: center;
+  text-transform: uppercase;
+  color: #77B8E8;
+}
+.service-item-spacing{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Footer*/
+.footer{
+  background-color: #231F20;
+  height: 150px;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  color: #bfc0c1
+
+}
+.footer a{
+  color: #A5A6A7;
+}
+.footer-logo{
+  height: 75px;
+  widows: 75px;
+}
+.footer-border{
+  border-right: 1px solid #333333;
+}
+
+.footer-text{
+  color: #A5A6A7;
+}
+.footer address{
+  color: #A5A6A7;
+}
+.col-md-3 address:hover{
+  color: white;
+}
+.inner-footer{
+  padding-top: 20px;
+}
+i{
+  padding-right: 5px;
+}
+.rights{
+  color: #4E4E4E;
+}
